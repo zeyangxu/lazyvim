@@ -14,7 +14,8 @@ return {
     },
     keys = {
       { "<leader>gd", "<cmd>DiffviewOpen<cr>", desc = "Open Diffview" },
-      { "<leader>gH", "<cmd>DiffviewFileHistory<cr>", desc = "Open Git File History" },
+      { "<leader>gH", "<cmd>DiffviewFileHistory<cr>", desc = "Open Current Branch Git History" },
+      { "<leader>gF", "<cmd>DiffviewFileHistory %<cr>", desc = "Open Current File Git History" },
       { "<leader>gD", "<cmd>DiffviewClose<cr>", desc = "Close Diffview" },
     },
     opts = {
